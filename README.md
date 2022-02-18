@@ -1,7 +1,7 @@
 # AgiTest
 Testes de fluxos de pesquisa agi
 
-**Pré requisito**
+**Pré-requisito**
 
 * Node.js 
 ([Node.js](https://nodejs.org/en/))
