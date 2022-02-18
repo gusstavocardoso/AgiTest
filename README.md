@@ -1,5 +1,5 @@
 # AgiTest
-Teste de fluxos de pesquisa agi
+Testes de fluxos de pesquisa agi
 
 **Pré requisito**
 
