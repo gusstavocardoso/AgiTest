@@ -1,15 +1,19 @@
 {
   "name": "agi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automação de testes de pesquisa",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Cypress",
+    "Test Automation",
+    "Tests Web"
+  ],
+  "author": "Gustavo Cardoso",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^9.5.0"
