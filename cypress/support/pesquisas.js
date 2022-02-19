@@ -1,14 +1,15 @@
-const buttonSearch = '.desktop-search > form > input';
+const buttonSearch = 'button#search-open';
+const inputSearch = '.desktop-search > form > input';
 
 Cypress.Commands.add('fazerPesquisa', (termo) => {
-    cy.get('button#search-open').click();
-    cy.get('.desktop-search > form > label > input').type(termo);
     cy.get(buttonSearch).click();
+    cy.get('.desktop-search > form > label > input').type(termo);
+    cy.get(inputSearch).click();
 })
 
 Cypress.Commands.add('fazerPesquisaVazia', () => {
-    cy.get('button#search-open').click();
     cy.get(buttonSearch).click();
+    cy.get(inputSearch).click();
 })
 
 Cypress.Commands.add('comResultado', () => {
