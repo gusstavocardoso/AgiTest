@@ -1,10 +1,11 @@
 /// <reference types="cypress" />
 
 import Pesquisas from '../../data/pesquisas.js'
+import Url from '../../data/url'
 
 describe('Pesquisas agi', () => {
     beforeEach(() => {
-        cy.visit('https://blogdoagi.com.br/')
+        cy.visit(Url.homePage())
     })
 
     it('Deve retornar pesquisa quando termo existente', () => {
