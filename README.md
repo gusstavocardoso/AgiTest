@@ -31,7 +31,7 @@ Funcionalidade: Pesquisas
                 Dado que eu estou na home do Blog do Agi
                 Quando eu informo um <termo ou palavra chave>
                 E clico em pesquisar
-                Então de devo ver o resultado da pesquisa <resultado da pesquisa>
+                Então de devo ver o <resultado da pesquisa>
                 
                 Exemplos: 
                         |termo ou palavra chave     |resultado da pesquisa                      |
