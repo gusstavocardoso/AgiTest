@@ -19,3 +19,24 @@ Testes de fluxos de pesquisa agi
 
 * Excutando os testes no headless
 `npm run cy:run`
+
+**Cenários**
+```
+Funcionalidade: Pesquisas
+        Sendo um cliente agi
+        Quero pesquisar por termos ou palavras chaves
+        Para que eu possa encontrar as informações que preciso
+        
+        Esquema do cenário: Realizar pesquisas com a ferramenta de busca
+                Dado que eu estou na home do Blog do Agi
+                Quando eu informo um <termo ou palavra chave>
+                E clico em pesquisar
+                Então de devo ver o resultado da pesquisa <resultado da pesquisa>
+                
+                Exemplos: 
+                        |termo ou palavra chave     |resultado da pesquisa                      |
+                        |'Tesouro Direto'           |'Resultados da busca por: Tesouro Direto'  |
+                        |'Direto'                   |'Resultados da busca por: Direto'          |
+                        |'Pink Floyd'               |'Nenhum resultado'                         |
+                        |                           |'Resultados da busca por: '                |
+```
