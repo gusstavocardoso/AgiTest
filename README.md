@@ -24,7 +24,7 @@ Testes de fluxos de pesquisa agi
 ```
 Funcionalidade: Pesquisas
         Sendo um cliente agi
-        Quero pesquisar por termos ou palavras chaves
+        Quero pesquisar por termos ou palavras chave
         Para que eu possa encontrar as informações que preciso
         
         Esquema do cenário: Realizar pesquisas com a ferramenta de busca
