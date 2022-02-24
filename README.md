@@ -40,7 +40,7 @@ Funcionalidade: Pesquisas
                         |'Pink Floyd'               |'Nenhum resultado'                         |
                         |                           |'Resultados da busca por: '                |
 ```
-**Estruta do Projeto**
+**Estrutura do Projeto**
 
 ```
 C:.
