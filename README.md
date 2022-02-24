@@ -40,3 +40,37 @@ Funcionalidade: Pesquisas
                         |'Pink Floyd'               |'Nenhum resultado'                         |
                         |                           |'Resultados da busca por: '                |
 ```
+**Estruta do Projeto**
+
+```
+C:.
+│   .gitignore
+│   cypress.json
+│   package-lock.json
+│   package.json
+│   README.md
+│
+└───cypress
+    ├───data
+    │       pesquisas.js
+    │       url.js
+    │
+    ├───fixtures
+    │       example.json
+    │
+    ├───integration
+    │   └───blog-agi
+    │           pesquisas-agi.spec.js
+    │
+    ├───plugins
+    │       index.js
+    │
+    ├───support
+    │       commands.js
+    │       index.js
+    │       pesquisas.js
+    │
+    └───videos
+        └───blog-agi
+                pesquisas-agi.spec.js.mp4
+```
