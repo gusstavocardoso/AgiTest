@@ -7,7 +7,7 @@ class Pesquisas {
 
     palavraChave(){
 
-        return 'have.text', 'Resultados da busca por: Direto';
+        return 'Resultados da busca por: Direto';
     }
 
     termoInexistente(){
