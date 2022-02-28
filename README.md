@@ -14,10 +14,10 @@ Testes de fluxos de pesquisa agi
 * Instalando o projeto 
 `npm install`
 
-* Excutando os testes no test runner
+* Excutando os testes pelo test runner
 `npm run cy:open`
 
-* Excutando os testes no headless
+* Excutando os testes no modo headless
 `npm run cy:run`
 
 **Cenários**
