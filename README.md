@@ -29,7 +29,8 @@ Funcionalidade: Pesquisas
         
         Esquema do cenário: Realizar pesquisas com a ferramenta de busca
                 Dado que eu estou na home do Blog do Agi
-                Quando eu informo um <termo ou palavra chave>
+                Quando eu expando a ferramenta de pesquisa
+                E informo um <termo ou palavra chave>
                 E clico em pesquisar
                 Então de devo ver o <resultado da pesquisa>
                 
