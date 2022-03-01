@@ -1,21 +1,20 @@
-const buttonSearch = 'button#search-open';
-const inputSearch = '.desktop-search > form > input';
+import homePageSearch from '../elements/home-page.js' 
 
 Cypress.Commands.add('fazerPesquisa', (termo) => {
-    cy.get(buttonSearch).click();
-    cy.get('.desktop-search > form > label > input').type(termo);
-    cy.get(inputSearch).click();
+    cy.get(homePageSearch.buttonSearch()).click();
+    cy.get(homePageSearch.inputText()).type(termo);
+    cy.get(homePageSearch.inputSearch()).click();
 })
 
 Cypress.Commands.add('fazerPesquisaVazia', () => {
-    cy.get(buttonSearch).click();
-    cy.get(inputSearch).click();
+    cy.get(homePageSearch.buttonSearch()).click();
+    cy.get(homePageSearch.inputSearch()).click();
 })
 
 Cypress.Commands.add('comResultado', () => {
-    cy.get('.archive-title');
+    cy.get(homePageSearch.infoResult());
 })
 
 Cypress.Commands.add('semResultado', () => {
-    cy.get('.entry-title');
+    cy.get(homePageSearch.emptyResult());
 })

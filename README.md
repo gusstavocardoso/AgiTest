@@ -56,6 +56,9 @@ C:.
     │       pesquisas.js
     │       url.js
     │
+    ├───elements
+    │       home-page.js
+    │
     ├───fixtures
     │       example.json
     │
