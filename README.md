@@ -15,7 +15,9 @@ Testes de fluxos de pesquisa agi
 `npm install`
 
 * Excutando os testes pelo test runner
-`npm run cy:open`
+`npm run cy:open` 
+
+* Após aberto o teste runner rodar o script `pesquisas-agi.spec.js` localizado na pasta **_blog-agi_**
 
 * Excutando os testes no modo headless
 `npm run cy:run`
