@@ -44,7 +44,7 @@ Funcionalidade: Pesquisas
 **Estrutura do Projeto**
 
 ```
-C:.
+C:\AgiTest
 │   .gitignore
 │   cypress.json
 │   package-lock.json
